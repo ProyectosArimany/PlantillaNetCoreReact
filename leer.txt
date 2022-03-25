@@ -1,0 +1,11 @@
+1. Cambiar el nombre "Plantilla" por el de nuestro proyecto en los archivos
+    - ClientApp/package.json > name
+    - namespace en carpetas: Context, Controllers, Models, Pages
+    - Properties > linea 11
+
+2. Restaurar la solución del proyecto
+    Abrir terminal en la carpeta del proyecto
+    - dotnet new sln
+    - dotnet sln add .
+
+3. Instalar los modulos de node, revisar el archivo "instalaciones.txt" en ClientApp
